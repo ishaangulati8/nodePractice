@@ -7,7 +7,7 @@ const blogSchema = new Schema({
     authorLastName: String,
     content: String,
     date: Date,
-})
+});
 
 const Blog = mongoose.model('Blog', blogSchema);
 
